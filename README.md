@@ -6,26 +6,20 @@ This package allows you to share content in Linkedin with the v2 API
 You can install this package via composer:
 
 ```bash
-composer require lightit/linkedin-share
+composer require emme-bi/sharing-linkedin   
 ```
 
-In Laravel 5.5 the service provider will automatically get registered. In older versions of the Laravel you should add the service provider to the config/app.php file:
-```php
-'providers' => [
-    // ...
-    Lightit\LinkedinShare\LinkedinShareServiceProvider::class,
-];
 ```
 You can publish the config file with:
 ```bash
-php artisan vendor:publish --provider="Lightit\LinkedinShare\LinkedinShareServiceProvider" --tag="linkedin-share"
+php artisan vendor:publish --provider="EmmeBi\SharingLinkedin\SharingLinkedinServiceProvider" --tag="SharingLinkedin"
 ```
 After publishing the config file, you should declare the following variables in your .env file.
 
 ```php
-LINKEDIN_SHARE_REDIRECT_URI={your_redirect_uri}
-LINKEDIN_SHARE_CLIENT_ID={your_client_id}
-LINKEDIN_SHARE_CLIENT_SECRET={your_client_secret}
+SHARING_LINKEDIN_REDIRECT_URI={your_redirect_uri}
+SHARING_LINKEDIN_CLIENT_ID={your_client_id}
+SHARING_LINKEDIN_CLIENT_SECRET={your_client_secret}
 ```
 ## Sharing content
 
@@ -59,9 +53,11 @@ LinkedinShare::getAccessToken($code)
 ```
 
 ## About Lightit
-[Light-it](https://lightit.io) is a software development company with offices in Uruguay and Paraguay. 
+[Emme-Bi Information Technology](https://www.emme-bi.com) is a software development company with offices in Italy. 
 
-![alt text](https://lightit.io/images/solo-logo.png)
+![alt text](https://www.emme-bi.com/frontend/img/logo-default.png)
 
 ## License
 This project and the Laravel framework are open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+## https://artisansweb.net/share-post-on-linkedin-using-linkedin-api-and-php/
