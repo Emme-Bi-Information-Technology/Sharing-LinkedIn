@@ -4,7 +4,7 @@ namespace Emme-Bi\Sharing-Linkedin;
 
 use Illuminate\Support\ServiceProvider;
 
-class LinkedinShareServiceProvider extends ServiceProvider
+class Sharing-LinkedinServiceProvider extends ServiceProvider
 {
     protected $redirect_uri;
     protected $client_id;
