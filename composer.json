@@ -1,5 +1,5 @@
 {
-    "name": "Emme-Bi/Sharing-Linkedin",
+    "name": "emme-bi/sharing-linkedin",
     "description": "This package allows you to easily share content on Likedin, using the v2 API.",
     "keywords": ["linkedin", "linkedin share", "linkedin API v2"],
     "license": "MIT",
@@ -16,16 +16,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Emme-Bi\\Sharing-Linkedin\\": "src/"
+            "emme-bi\\sharing-linkedin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Emme-Bi\\Sharing-Linkedin\\LinkedinShareServiceProvider"
+                "emme-bi\\sharing-linkedin\\LinkedinShareServiceProvider"
             ],
             "aliases": {
-                "Sharing-Linkedin": "Emme-Bi\\Sharing-Linkedin\\Facades\\Sharing-Linkedin"
+                "sharing-linkedin": "emme-bi\\sharing-linkedin\\Facades\\sharing-linkedin"
             }
         }
     }
