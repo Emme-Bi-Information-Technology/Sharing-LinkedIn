@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "emme-bi\\sharing-linkedin\\Sharing-LinkedinServiceProvider"
+                "emme-bi\\sharing-linkedin\\LinkedinShareServiceProvider"
             ],
             "aliases": {
                 "sharing-linkedin": "emme-bi\\sharing-linkedin\\Facades\\sharing-linkedin"
