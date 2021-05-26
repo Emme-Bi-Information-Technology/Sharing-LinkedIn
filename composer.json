@@ -16,16 +16,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Emme-Bi\\Sharing-Linkedin\\": "src/"
+            "EmmeBi\\SharingLinkedin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Emme-Bi\\Sharing-Linkedin\\Sharing-LinkedinServiceProvider"
+                "EmmeBi\\SharingLinkedin\\SharingLinkedinServiceProvider"
             ],
             "aliases": {
-                "Sharing-Linkedin": "Emme-Bi\\Sharing-Linkedin\\Facades\\Sharing-Linkedin"
+                "SharingLinkedin": "EmmeBi\\SharingLinkedin\\Facades\\SharingLinkedin"
             }
         }
     }
