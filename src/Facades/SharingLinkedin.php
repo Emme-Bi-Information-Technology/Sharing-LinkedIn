@@ -2,10 +2,13 @@
 
 namespace EmmeBi\SharingLinkedin\Facades;
 
+use EmmeBi\SharingLinkedin;
+
+
 class SharingLinkedin extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        return SharingLinkedin::class;
+        return EmmeBi\SharingLinkedin\SharingLinkedin::class;
     }
 }
