@@ -6,6 +6,6 @@ class SharingLinkedin extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
-        return EmmeBi\SharingLinkedin\SharingLinkedin::class;
+        return SharingLinkedin::class;
     }
 }
